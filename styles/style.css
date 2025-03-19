@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+img {
+    user-select: none;
+}
+
+.home_button {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    background-color: #c1b086;
+    border-radius: 30px;
+    border: white 2px solid;
+    box-shadow: 0 20px 100px black;
+    font-size: 10px;
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/home1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#home .navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+#home .navigation img{
+    height: 30px;
+    width: 130px;
+    margin-top: 30px;
+
+}
+
+#home .navigation nav{
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+
+}
+
+#home .navigation nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+#home .navigation nav a:hover{
+    color: #c1b086;
+
+}
+
+#home span{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 140px;
+
+}
+
+#home span h2::after{
+    display: inline-block;
+    content: "H";
+    position: absolute;
+    font-size: 450px;
+    opacity: 0.2;
+    font-weight: bold;
+    margin: -200px 0 0 -500px ;
+}
+
+#home span h2{
+    font-size: 65px;
+
+}
+
+#home span p{
+    display: inline-block;
+    font-size: 12px;
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+section{
+    height:100vh;
+    width: 100%;
+}
