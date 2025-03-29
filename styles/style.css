@@ -142,7 +142,18 @@ section{
     position: absolute;
     right: 10%;
     top: 50%;
+    background-color: #c1b086;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
 
+#gallery .back_home:hover {
+    background-color: #a89160;
 }
 
 #gallery .photo_grid {
@@ -175,4 +186,3 @@ section{
 #photo8:checked ~ .photo_frame:nth-of-type(8) {
     width: 95%;
 }
-
