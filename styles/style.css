@@ -99,9 +99,21 @@ section{
     width: 100%;
 }
 
+#rooms span{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 8%;
+    
+}
+
+
 #rooms span h1 {
     font-size: 28px;
     margin: 10px 0 30px 0;
+    margin-left: 10%;
+    
+  
+
 }
 
 #rooms span h2 {
@@ -109,27 +121,79 @@ section{
     font-size: 14px;
     margin-bottom: 20px;
     color: #664f14;
+    margin-left: 10%;
+
 }
 
 
 #rooms span h2::before {
-    margin-bottom: 25px;
     content: "";
     display: block;
     width: 80px;
     height: 4px;
     background-color:#c1b086;
-  }
+    margin-bottom: 25px;
+}
 
 #rooms .boximg{
     display: flex;
     width : 80%;
     gap: 30px;
+    margin-left: 10%;
+    margin-top: px;
 }
 
+
 #rooms .images{
-    height: 400px;
-    width: 300px;
+    height: 500px;
+    width: 380px;
     background-position: center;
     background-size: cover;
+    border-radius: 30px;
+    border: #c1b086 4px solid;
+    position: relative;
+    display: flex;
+
+    
+    
+}
+
+#rooms .images .info{
+    background-color: rgb(243, 247, 250);
+    height: 15%;
+    width: 100%;
+    margin-top: auto;
+    border-top: #c1b086 4px solid;
+    border-radius: 0 0 25px 25px;
+
+}
+#rooms .images .info h2{
+    margin: 10px 0 0 10px;
+    font-size: 15px;
+    
+}   
+
+#rooms .images .info h3{
+    margin: 0 0 0 10px;
+    font-size: 15px;
+    color: #0c0901;
+}
+
+#rooms .images h3::before {
+    content: "$";
+    font-size: 0.8em;
+    color: #b3b0a6;
+}
+
+#rooms .images h3::after {
+    content: " /per night";
+    font-size: 0.8em;
+    color: #b3b0a6;
+}
+
+#rooms .home_button{
+    position: absolute;
+    top: 310%;
+    right: 10%;
+    
 }
