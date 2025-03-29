@@ -99,4 +99,105 @@ section{
     width: 100%;
 }
 
+#restaurant {
+    height: 95vh;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    
+}
 
+#restaurant .restaurant_img {
+    margin: 3% 0 0 8%;
+    width: 30%;
+    height: 80%;
+    border-radius: 25px;
+    background-image: url(../images/re.jpg);
+    background-size: cover;
+    border: #c1b086 3px solid;
+}
+
+#restaurant span h1 {
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    margin: 0 0 50px 0;
+}
+
+#restaurant span h1::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #c1b086;
+    margin-bottom: 15px;
+}
+
+#restaurant span p {
+    font-size: 14px;
+    width: 55%;
+    font-family: 'Merriweather', serif;
+    margin: 0 0 25px 50px;
+}
+
+#restaurant .main_btn {
+    position: absolute;
+    right: 10%;
+    top: 18%;
+}
+
+#restaurant .restaurant_wrapper {
+    margin: 2% 0 0 2%;
+    width: 55%;
+    height: 100%;
+}
+
+#restaurant .restaurant_row {
+    display: flex;
+    gap: 3%;
+    margin-bottom: 3%;
+}
+
+#restaurant .restaurant_card {
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    width: 68vh;
+    height: 28vh;
+    justify-content: center;
+    align-items: center;
+    border: #c1b086 3px solid;
+    border-radius: 25px;
+    color: white;
+}
+
+#restaurant .cuisine_title {
+    transform: translateY(140px);
+    background-color: rgb(193, 176, 134);
+    width: 100%;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 28px;
+    opacity: 0;
+    transition: 0.9s ease;
+}
+
+#restaurant .cuisine_desc {
+    transform: translateY(-90px);
+    background-color: rgb(193, 176, 134);
+    width: 88%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: 0.9s ease;
+}
+
+#restaurant .restaurant_card:hover .cuisine_title {
+    opacity: 0.9;
+    transform: translateY(-8px);
+}
+
+#restaurant .restaurant_card:hover .cuisine_desc {
+    opacity: 0.9;
+    transform: translateY(18px);
+}
