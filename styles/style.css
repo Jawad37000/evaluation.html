@@ -98,7 +98,6 @@ section{
     height:100vh;
     width: 100%;
 }
-<<<<<<< HEAD
 
 #restaurant {
     height: 95vh;
@@ -202,7 +201,7 @@ section{
     opacity: 0.9;
     transform: translateY(18px);
 }
-=======
+
 #about{
     display:flex ;
 
@@ -272,4 +271,3 @@ section{
     position: absolute;
     margin: 3% 0 0 5%;
 }
->>>>>>> about
