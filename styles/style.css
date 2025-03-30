@@ -98,6 +98,7 @@ section{
     height:100vh;
     width: 100%;
 }
+<<<<<<< HEAD
 
 #restaurant {
     height: 95vh;
@@ -201,3 +202,74 @@ section{
     opacity: 0.9;
     transform: translateY(18px);
 }
+=======
+#about{
+    display:flex ;
+
+}
+#about img{
+    margin-top: 15%;
+    margin-left: 10%;
+    border: #c1b086 4px solid;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.5s;
+
+}
+
+#about img:hover{
+    transform: scale(1.2);
+}
+
+#about .left{
+    height : 450px;
+    width: 300px;
+    
+}
+
+#about .right{
+    height : 200px;
+    width: 300px;
+    position: absolute;
+    margin: 33% 0 0 22%;
+}
+
+#about span{
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 50%;
+
+
+}
+
+
+#about span h2{
+    font-size: 15px;
+    margin-bottom: 0;
+    color: darkgrey;
+}
+
+#about span h2::before{
+    margin-bottom: 25px;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color:#c1b086;
+
+}
+
+#about span h1{
+    font-size: 30px;
+}
+
+#about span p{
+    font-size: 12px;
+    margin:30px;
+}
+
+#about .home_button{
+    position: absolute;
+    margin: 3% 0 0 5%;
+}
+>>>>>>> about
